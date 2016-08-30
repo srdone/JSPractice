@@ -19,3 +19,11 @@ console.log(myObject.hasOwnProperty("b"));
 for (var k in myObject) {
   console.log(k, myObject[k]);
 }
+
+console.log(myObject.propertyIsEnumerable("a"));
+console.log(myObject.propertyIsEnumerable("b"));
+
+console.log(Object.keys(myObject));
+console.log(Object.getOwnPropertyNames(myObject));
+
+
